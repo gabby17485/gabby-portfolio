@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#071a2d"/>
+  <style>
+    text{font-family:Arial,Helvetica,sans-serif;fill:#f6fbff}
+    .muted{fill:#9eb6cc}.cyan{fill:#35e6ff}.mint{fill:#35f0c0}.lime{fill:#c9ff3d}
+    .panel{fill:#0a2740;stroke:#1a5d80;stroke-width:1.4}.soft{fill:#0d3454}
+    .line{stroke:#35e6ff;stroke-width:3;fill:none}.grid{stroke:#20445f;stroke-width:1}
+  </style>
+<rect x="0" y="0" width="220" height="900" fill="#06213a"/>
+<text x="28" y="48" font-size="26" font-weight="700">Distributor Network</text>
+<text x="28" y="76" font-size="14" class="muted">Stronger Partners. A Brighter Tomorrow.</text>
+<g font-size="18" class="muted">
+<text x="42" y="145">Overview</text><rect x="18" y="166" width="184" height="48" rx="8" fill="#0e7bb4"/><text x="42" y="197" fill="#fff">Upload Monitor</text>
+<text x="42" y="260">Partners</text><text x="42" y="312">Reports</text><text x="42" y="364">Data Management</text><text x="42" y="416">Settings</text>
+</g>
+<text x="255" y="60" font-size="46" font-weight="800">Upload Monitor</text>
+<text x="255" y="94" font-size="18" class="muted">Track partner file uploads across our nationwide distribution network.</text>
+<text x="1420" y="45" font-size="23" class="cyan" font-weight="800">DEMO DATA</text>
+<g>
+<rect class="panel" x="255" y="120" width="285" height="125" rx="14"/><text x="330" y="176" font-size="44" font-weight="800">180</text><text x="330" y="210" font-size="20">Partners</text><rect x="255" y="120" width="7" height="125" fill="#31e6ff"/>
+<rect class="panel" x="555" y="120" width="285" height="125" rx="14"/><text x="630" y="176" font-size="44" font-weight="800">128</text><text x="630" y="210" font-size="20">Uploaded</text><rect x="555" y="120" width="7" height="125" class="mint"/>
+<rect class="panel" x="855" y="120" width="285" height="125" rx="14"/><text x="930" y="176" font-size="44" font-weight="800">52</text><text x="930" y="210" font-size="20">Pending</text><rect x="855" y="120" width="7" height="125" fill="#ffd34f"/>
+<rect class="panel" x="1155" y="120" width="400" height="125" rx="14"/><text x="1255" y="178" font-size="38" font-weight="800">71.1%</text><text x="1390" y="176" font-size="21">Complete</text>
+</g>
+<rect class="panel" x="255" y="265" width="430" height="220" rx="14"/><text x="275" y="300" font-size="21" font-weight="700">Upload Status by Region</text>
+<path d="M315 390 C360 330 420 350 470 322 S570 345 620 300" class="line"/><circle cx="350" cy="360" r="15" class="mint"/><circle cx="440" cy="342" r="15" class="cyan"/><circle cx="530" cy="330" r="15" fill="#2f9fd6"/>
+<rect class="panel" x="700" y="265" width="430" height="220" rx="14"/><text x="720" y="300" font-size="21" font-weight="700">Top Uploading Partners</text>
+<text x="735" y="345" font-size="16">1. Northeast Distribution</text><rect x="930" y="333" width="155" height="12" rx="6" class="mint"/><text x="735" y="377" font-size="16">2. Atlas Trading</text><rect x="930" y="365" width="151" height="12" rx="6" class="mint"/><text x="735" y="409" font-size="16">3. Meridian Supply</text><rect x="930" y="397" width="147" height="12" rx="6" class="mint"/><text x="735" y="441" font-size="16">4. Pioneer Wholesale</text><rect x="930" y="429" width="143" height="12" rx="6" class="mint"/><text x="735" y="473" font-size="16">5. Summit Global</text><rect x="930" y="461" width="139" height="12" rx="6" class="mint"/>
+<rect class="panel" x="1145" y="265" width="410" height="220" rx="14"/><text x="1165" y="300" font-size="21" font-weight="700">Upload Status</text><circle cx="1300" cy="390" r="70" fill="none" stroke="#35f0c0" stroke-width="28"/><path d="M1300 320 A70 70 0 0 1 1365 408" fill="none" stroke="#ffe36c" stroke-width="28"/><text x="1260" y="398" font-size="34" font-weight="800">180</text><text x="1265" y="425" font-size="16">Partners</text>
+<rect class="panel" x="255" y="510" width="1300" height="330" rx="14"/><text x="275" y="548" font-size="21" font-weight="700">Partner Upload Details</text>
+<rect x="275" y="570" width="1250" height="28" fill="#0d304d"/><text x="290" y="590" font-size="14">Northeast Distribution</text><text x="630" y="590" font-size="14" class="mint">Uploaded</text><rect x="1310" y="579" width="150" height="10" rx="5" fill="#35f0c0"/></g><rect x="275" y="601" width="1250" height="28" fill="#09243b"/><text x="290" y="621" font-size="14">Atlas Trading</text><text x="630" y="621" font-size="14" class="mint">Uploaded</text><rect x="1310" y="610" width="150" height="10" rx="5" fill="#35f0c0"/></g><rect x="275" y="632" width="1250" height="28" fill="#0d304d"/><text x="290" y="652" font-size="14">Meridian Supply</text><text x="630" y="652" font-size="14" class="mint">Uploaded</text><rect x="1310" y="641" width="150" height="10" rx="5" fill="#35f0c0"/></g><rect x="275" y="663" width="1250" height="28" fill="#09243b"/><text x="290" y="683" font-size="14">Pioneer Wholesale</text><text x="630" y="683" font-size="14" class="mint">Uploaded</text><rect x="1310" y="672" width="150" height="10" rx="5" fill="#35f0c0"/></g><rect x="275" y="694" width="1250" height="28" fill="#0d304d"/><text x="290" y="714" font-size="14">Summit Global</text><text x="630" y="714" font-size="14" class="mint">Uploaded</text><rect x="1310" y="703" width="150" height="10" rx="5" fill="#35f0c0"/></g><rect x="275" y="725" width="1250" height="28" fill="#09243b"/><text x="290" y="745" font-size="14">Crestline Partners</text><text x="630" y="745" font-size="14" class="muted">Pending</text><rect x="1310" y="734" width="20" height="10" rx="5" fill="#31506a"/></g><rect x="275" y="756" width="1250" height="28" fill="#0d304d"/><text x="290" y="776" font-size="14">Valley Distributors</text><text x="630" y="776" font-size="14" class="muted">Pending</text><rect x="1310" y="765" width="20" height="10" rx="5" fill="#31506a"/></g><rect x="275" y="787" width="1250" height="28" fill="#09243b"/><text x="290" y="807" font-size="14">Horizon Logistics</text><text x="630" y="807" font-size="14" class="mint">Uploaded</text><rect x="1310" y="796" width="150" height="10" rx="5" fill="#35f0c0"/></g>
+</svg>
