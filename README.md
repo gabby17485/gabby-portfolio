@@ -1,18 +1,41 @@
-# Gabby Portfolio
+# Gabby Virginia — Data Portfolio
 
-Static portfolio website for **Gabby Virginia Xhyalom Michelle** — Data Analyst & Automation Specialist.
+An English-language portfolio for Gabby Virginia Xhyalom Michelle, presenting experience in master data, data analysis, data entry, data mining, reporting, and workflow automation.
 
-## Files
-- `index.html` — main page
-- `style.css` — responsive styling
-- `script.js` — mobile menu and reveal animation
-- `assets/` — locally hosted SVG visuals
+## Project structure
+
+```text
+gabby-portfolio-github/
+├── index.html
+├── styles.css
+├── script.js
+├── assets/
+├── README.md
+└── .gitignore
+```
+
+## Run locally
+
+Open `index.html` directly in a browser, or serve the folder with any static web server.
+
+Example using Python:
+
+```bash
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000`.
 
 ## Publish with GitHub Pages
-Open the repository on GitHub, then go to **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, select **main** and **/(root)**, then save.
 
-Expected project-site URL:
-`https://gabby17485.github.io/gabby-portfolio/`
+1. Create a new GitHub repository.
+2. Upload every file and the `assets` folder from this project.
+3. Open **Settings → Pages** in the repository.
+4. Under **Build and deployment**, select **Deploy from a branch**.
+5. Select the `main` branch and `/ (root)` folder, then save.
 
-## Customize
-Replace `your-email@example.com` in `index.html` with your preferred professional email address.
+GitHub will provide the public Pages URL after deployment finishes.
+
+## Privacy
+
+All project screenshots, company names, branches, products, dates, figures, and charts shown in this portfolio use fictional demonstration data.
