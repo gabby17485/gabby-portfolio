@@ -1,161 +1,284 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Gabby Virginia Xhyalom Michelle — Data Analyst & Automation Specialist portfolio." />
-  <title>Gabby Virginia | Data Analyst & Automation Specialist</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gabby Virginia Xhyalom Michelle — Master Data Specialist</title>
+  <meta name="description" content="Portfolio of Gabby Virginia Xhyalom Michelle, a master data specialist, data analyst, data entry and data mining professional with seven years of pharmaceutical industry experience.">
+  <meta name="theme-color" content="#07101d">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2307101d'/%3E%3Cpath d='M14 44V27h8v17h-8Zm14 0V15h8v29h-8Zm14 0V22h8v22h-8Z' fill='%2336dcff'/%3E%3Cpath d='M12 49h40' stroke='%23c9ff3d' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="nav-wrap">
-    <nav class="nav container">
-      <a class="brand" href="#home">GABBY<span>.</span></a>
-      <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="shell nav">
+      <a class="brand" href="#top" aria-label="Gabby Virginia home">
+        <span class="brand-mark">GV</span>
+        <span>Gabby Virginia</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#profile">Profile</a>
         <a href="#projects">Projects</a>
-        <a href="#impact">Impact</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </nav>
+        <a href="#experience">Experience</a>
+        <a href="#capabilities">Capabilities</a>
+        <a class="nav-pill" href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section class="hero container" id="home">
-      <div class="hero-copy reveal">
-        <p class="eyebrow">DATA • AUTOMATION • BUSINESS INSIGHT</p>
-        <h1>Gabby Virginia<br><span>Xhyalom Michelle</span></h1>
-        <p class="hero-sub">Data Analyst & Automation Specialist building practical solutions that turn repetitive operational work into fast, reliable workflows.</p>
-        <div class="hero-actions">
-          <a class="btn primary" href="#projects">View Projects</a>
-          <a class="btn ghost" href="#contact">Contact Me</a>
-        </div>
-        <div class="mini-stats">
-          <div><strong>7+</strong><span>Years in data</span></div>
-          <div><strong>200+</strong><span>Files automated</span></div>
-          <div><strong>90%+</strong><span>Time saved on key workflows</span></div>
-        </div>
-      </div>
-      <div class="hero-visual reveal">
-        <img src="assets/profile-visual.svg" alt="Abstract data analyst illustration">
-      </div>
-    </section>
-
-    <section class="section alt" id="about">
-      <div class="container grid-2">
-        <div class="reveal">
-          <p class="eyebrow">ABOUT</p>
-          <h2>I turn operational complexity into simple systems.</h2>
-        </div>
-        <div class="copy reveal">
-          <p>I work across sales data, stock monitoring, reporting, reconciliation, and process automation. My focus is not only producing reports, but reducing manual work, minimizing human error, and helping teams get information faster.</p>
-          <p>My toolkit combines advanced Excel, Power Query, Python, SQL, Power Automate, dashboards, and business process understanding.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section container" id="skills">
-      <div class="section-head reveal">
-        <p class="eyebrow">CAPABILITIES</p>
-        <h2>Tools I use to solve business problems</h2>
-      </div>
-      <div class="skill-grid">
-        <article class="card reveal"><span>01</span><h3>Excel & Power Query</h3><p>Advanced formulas, pivots, reconciliation, dynamic reports, data cleaning, and repeatable transformation pipelines.</p></article>
-        <article class="card reveal"><span>02</span><h3>Python Automation</h3><p>Bulk file processing, PDF generation, consolidation, validation, renaming, and workflow acceleration.</p></article>
-        <article class="card reveal"><span>03</span><h3>Power Automate</h3><p>Automated email distribution, OneDrive-triggered workflows, logging, notifications, and process orchestration.</p></article>
-        <article class="card reveal"><span>04</span><h3>SQL & Analytics</h3><p>Querying, data validation, structured analysis, KPI tracking, and decision-ready summaries.</p></article>
-        <article class="card reveal"><span>05</span><h3>Dashboarding</h3><p>Interactive views for sales, targets, achievement, stock, regional performance, and operational monitoring.</p></article>
-        <article class="card reveal"><span>06</span><h3>Process Improvement</h3><p>Mapping repetitive tasks, identifying failure points, and redesigning workflows to be faster and safer.</p></article>
-      </div>
-    </section>
-
-    <section class="section dark" id="projects">
-      <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">SELECTED PROJECTS</p>
-          <h2>Automation that creates measurable impact</h2>
-        </div>
-
-        <div class="project feature reveal">
-          <div class="project-media"><img src="assets/automation-visual.svg" alt="Automation workflow illustration"></div>
-          <div class="project-copy">
-            <p class="tag">PYTHON • EXCEL • PDF</p>
-            <h3>Excel-to-PDF Automation & Digital Signature</h3>
-            <p>Automated a workflow that converted hundreds of thousands of Excel rows into formatted PDFs, renamed output files based on business mapping, and applied digital signatures.</p>
-            <div class="metric"><strong>2 days → 2 hours</strong><span>Processing time reduced dramatically</span></div>
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="shell hero-grid">
+        <div>
+          <p class="eyebrow">Data systems · analysis · automation</p>
+          <h1>Gabby<br><span class="outline">Virginia</span></h1>
+          <p class="hero-role">Master Data Specialist · Data Analyst · Data Entry · Data Mining</p>
+          <p class="hero-copy">With seven years of experience at PT Kalbe Consumer Health, I turn high-volume sales and stock data into structured master data, live dashboards, and dependable automation.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore selected work <span aria-hidden="true">↓</span></a>
+            <a class="button button-secondary" href="#capabilities">View capabilities</a>
           </div>
         </div>
 
-        <div class="project-grid">
-          <article class="project-card reveal">
-            <p class="tag">POWER AUTOMATE • ONEDRIVE</p>
-            <h3>Mass Email Distribution</h3>
-            <p>Built an automated flow to distribute confidential files to hundreds of recipients using row-level email mapping and OneDrive files.</p>
+        <div class="hero-visual" aria-label="Featured live upload monitoring dashboard">
+          <figure class="screen">
+            <img src="assets/demo-upload-monitor.jpg" alt="Fully fictional upload monitoring dashboard with invented company names, dates and values">
+          </figure>
+          <div class="metric-card metric-a"><strong>180</strong><small>demo partners monitored</small></div>
+          <div class="metric-card metric-b"><strong>Live</strong><small>operational visibility</small></div>
+          <div class="metric-card metric-c"><strong>71.1%</strong><small>sample upload progress</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof-strip" aria-label="Selected project scale">
+      <div class="shell proof-grid">
+        <div class="proof"><strong>7 years</strong><span>pharmaceutical industry experience</span></div>
+        <div class="proof"><strong>312</strong><span>demo source files consolidated</span></div>
+        <div class="proof"><strong>125K</strong><span>sample sales rows processed</span></div>
+        <div class="proof"><strong>180</strong><span>demo partners monitored</span></div>
+      </div>
+    </section>
+
+    <section id="profile">
+      <div class="shell">
+        <header class="section-head reveal">
+          <p class="section-kicker">Professional profile / 01</p>
+          <h2 class="section-title">A data specialist who connects accuracy, analysis, and automation.</h2>
+        </header>
+        <div class="career-grid">
+          <article class="career-block reveal">
+            <h3>Gabby Virginia Xhyalom Michelle</h3>
+            <p class="career-meta">Master Data Specialist · Data Analyst · Data Entry · Data Mining</p>
+            <p>Data operations professional with seven years of experience at PT Kalbe Consumer Health. Experienced in maintaining stock and master data for all subdistributors, consolidating large multi-format datasets, analyzing commercial and inventory performance, and building practical automation for nationwide operations.</p>
+            <p>Known for advanced Microsoft Excel capability, disciplined data validation, and the ability to translate repetitive operational work into clear dashboards, reliable scripts, and controlled workflows.</p>
           </article>
-          <article class="project-card reveal">
-            <p class="tag">PYTHON • DATA CONSOLIDATION</p>
-            <h3>200+ Excel File Consolidation</h3>
-            <p>Standardized and consolidated hundreds of Excel workbooks with different structures into one analysis-ready dataset for sales and stock reporting.</p>
+          <aside class="career-block reveal">
+            <h3>Professional focus</h3>
+            <ul class="career-list">
+              <li>Master data governance and high-volume data entry.</li>
+              <li>Sales, stock, DOI, SLA, target, growth, and contribution analysis.</li>
+              <li>Python, SQL, Google Apps Script, and Power Automate solutions.</li>
+              <li>Microsoft Office productivity and business reporting.</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="shell">
+        <header class="section-head reveal">
+          <p class="section-kicker">Selected work / 02</p>
+          <h2 class="section-title">Systems built for real operational pressure.</h2>
+        </header>
+
+        <div class="project-list">
+          <article class="project reveal">
+            <div class="project-media"><img src="assets/demo-automation-pipeline.jpg" alt="Fully fictional data automation pipeline with invented files, values and brand"></div>
+            <div class="project-copy">
+              <span class="project-number">PROJECT 01 · DATA ENGINEERING</span>
+              <h3>Nationwide Sales Consolidation Engine</h3>
+              <p>Designed a Python workflow to collect, validate, and standardize sales and stock files from subdistributors across Indonesia—even when every source used a different Excel template.</p>
+              <p class="project-impact">Illustrative workload: 312 files, 125,000 sales rows, and 8,400 stock rows with file- and sheet-level validation logs.</p>
+              <div class="tags"><span class="tag">Python</span><span class="tag">Excel</span><span class="tag">Data mining</span><span class="tag">Data quality</span></div>
+            </div>
           </article>
-          <article class="project-card reveal">
-            <p class="tag">POWER AUTOMATE • APPS SCRIPT</p>
-            <h3>RAC Recap Automation</h3>
-            <p>Automated recap and notification workflows to reduce repetitive manual follow-up and improve operational visibility.</p>
+
+          <article class="project reveal">
+            <div class="project-media"><img src="assets/demo-upload-monitor.jpg" alt="Fully fictional upload monitoring dashboard with invented partner names and operational values"></div>
+            <div class="project-copy">
+              <span class="project-number">PROJECT 02 · LIVE MONITORING</span>
+              <h3>PDU Upload Monitoring Dashboard</h3>
+              <p>Built a live monitoring surface that tracks daily uploads, identifies missing submissions, highlights unreadable dates, ranks the fastest branches, and supports region-level follow-up.</p>
+              <p class="project-impact">The demo view covers 180 fictional partners and shows how manual checking becomes focused operational follow-up.</p>
+              <div class="tags"><span class="tag">Dashboard</span><span class="tag">Looker Studio</span><span class="tag">Data operations</span><span class="tag">Reporting</span></div>
+            </div>
           </article>
-          <article class="project-card reveal">
-            <p class="tag">DASHBOARD • KPI</p>
-            <h3>Sales Performance Dashboard</h3>
-            <p>Designed KPI views with filters for regional, branch, sub-distributor, month, sales order, target, growth, and achievement.</p>
+
+          <article class="project reveal">
+            <div class="project-media"><img src="assets/demo-relocation-workflow.jpg" alt="Fully fictional branch relocation application with invented branches, products and values"></div>
+            <div class="project-copy">
+              <span class="project-number">PROJECT 03 · INTERNAL APPLICATION</span>
+              <h3>Inter-Branch Relocation Application</h3>
+              <p>Created a structured internal application for RAC, TAC, transfers, and relocations across branches or depots within the same subdistributor group. The workflow covers opening stock, transfer balance, history, notifications, guidance, and approvals.</p>
+              <p class="project-impact">Replaced fragmented manual input with a guided, auditable branch workflow and built-in data validation.</p>
+              <div class="tags"><span class="tag">Google Apps Script</span><span class="tag">Workflow design</span><span class="tag">Data validation</span><span class="tag">UX</span></div>
+            </div>
           </article>
-          <article class="project-card reveal">
-            <p class="tag">APPLICATION • OPERATIONS</p>
-            <h3>RAC Operational App</h3>
-            <p>Developed a workflow concept for inter-branch delivery and operational tracking with a focus on reducing manual coordination.</p>
+
+          <article class="project reveal">
+            <div class="project-media iframe-demo"><iframe src="assets/target-document-fictional.html" title="Fictional target allocation document preview" loading="lazy" tabindex="-1"></iframe></div>
+            <div class="project-copy">
+              <span class="project-number">PROJECT 04 · DOCUMENT AUTOMATION</span>
+              <h3>Excel-to-Signed-PDF Document Factory</h3>
+              <p>Automated the conversion of large Excel datasets into branch-specific PDF documents, applied digital signatures, and renamed every file according to operational naming rules.</p>
+              <p class="project-impact">Turned a repetitive, error-prone document process into a consistent batch workflow ready for branch distribution.</p>
+              <div class="tags"><span class="tag">Python</span><span class="tag">PDF automation</span><span class="tag">Excel</span><span class="tag">File management</span></div>
+            </div>
           </article>
-          <article class="project-card reveal">
-            <p class="tag">REPORTING AUTOMATION</p>
-            <h3>CONIM Daily Reporting</h3>
-            <p>Improved a daily reporting process from roughly one full day of work to about one hour through automation and streamlined data preparation.</p>
+
+          <article class="project reveal">
+            <div class="project-media iframe-demo"><iframe src="assets/automation-center-fictional.html" title="Fictional automation workflow center preview" loading="lazy" tabindex="-1"></iframe></div>
+            <div class="project-copy">
+              <span class="project-number">PROJECT 05 · PROCESS AUTOMATION</span>
+              <h3>SLA Monitoring &amp; Personalized Branch Email</h3>
+              <p>Built scheduled and on-demand automation for SLA calculations, upload monitoring, data exports, and branch communications. Each branch receives the correct file through a recipient-specific email workflow.</p>
+              <p class="project-impact">Reduced repetitive coordination while improving the consistency and traceability of nationwide communication.</p>
+              <div class="tags"><span class="tag">Power Automate</span><span class="tag">SharePoint</span><span class="tag">SLA</span><span class="tag">Email automation</span></div>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project-media"><img src="assets/demo-sales-dashboard.jpg" alt="Fully fictional sales performance dashboard with invented products, regions, charts and values"></div>
+            <div class="project-copy">
+              <span class="project-number">PROJECT 06 · BUSINESS INTELLIGENCE</span>
+              <h3>Sales Performance Intelligence</h3>
+              <p>Developed an interactive dashboard for selling in, selling out, targets, achievement, growth, contribution, and active accounts. Filters make results explorable by period, region, branch, product, subdistributor, and transfer status.</p>
+              <p class="project-impact">Connects high-level performance indicators with the operational detail needed to explain what changed and where.</p>
+              <div class="tags"><span class="tag">Looker Studio</span><span class="tag">Sales analytics</span><span class="tag">KPI design</span><span class="tag">Data storytelling</span></div>
+            </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section container" id="impact">
-      <div class="section-head reveal">
-        <p class="eyebrow">IMPACT</p>
-        <h2>Built for real operational use</h2>
-      </div>
-      <div class="impact-grid">
-        <div class="impact reveal"><strong>Hundreds</strong><span>of recurring files handled through automation</span></div>
-        <div class="impact reveal"><strong>189+</strong><span>sub-distributors supported in operational reporting</span></div>
-        <div class="impact reveal"><strong>Hours</strong><span>instead of days for selected reporting processes</span></div>
+    <section id="experience">
+      <div class="shell">
+        <header class="section-head reveal">
+          <p class="section-kicker">Experience / 03</p>
+          <h2 class="section-title">Seven years turning operational complexity into reliable data.</h2>
+        </header>
+        <div class="career-grid">
+          <article class="career-block reveal">
+            <h3>PT Kalbe Consumer Health</h3>
+            <p class="career-meta">Data Operations, Analytics &amp; Master Data · 7 years</p>
+            <p>Built practical data systems in a large-scale pharmaceutical and healthcare environment, supporting nationwide subdistributor operations and commercial reporting.</p>
+            <ul class="career-list">
+              <li>Maintain stock data and master data for all subdistributors.</li>
+              <li>Analyze sales, selling in, selling out, DOI, SLA, targets, achievement, growth, and contribution.</li>
+              <li>Manage product, price, coverage, ship-to, branch, and subdistributor reference data.</li>
+              <li>Automate data consolidation, document generation, file naming, branch email distribution, and operational monitoring.</li>
+            </ul>
+          </article>
+          <aside class="career-block reveal" aria-label="Education">
+            <h3>Education</h3>
+            <div class="education-item">
+              <strong>Accounting Studies</strong>
+              <span>College-level education focused on accounting and business fundamentals.</span>
+            </div>
+            <div class="education-item">
+              <strong>Senior High School</strong>
+              <span>Senior High School diploma.</span>
+            </div>
+          </aside>
+        </div>
       </div>
     </section>
 
-    <section class="section contact" id="contact">
-      <div class="container contact-box reveal">
-        <p class="eyebrow">LET'S CONNECT</p>
-        <h2>Looking for a data analyst who also understands automation?</h2>
-        <p>I’m open to opportunities in data analytics, business analytics, reporting automation, and process improvement.</p>
-        <div class="hero-actions">
-          <a class="btn primary" href="https://github.com/gabby17485" target="_blank" rel="noopener">GitHub Profile</a>
-          <a class="btn ghost" href="mailto:your-email@example.com">Email Me</a>
+    <section class="capabilities" id="capabilities">
+      <div class="shell">
+        <header class="section-head reveal">
+          <p class="section-kicker">Capabilities / 04</p>
+          <h2 class="section-title">From raw files to a working decision system.</h2>
+        </header>
+        <div class="cap-grid">
+          <div class="cap-panel reveal">
+            <h3>Tools I use</h3>
+            <div class="skill-list">
+              <div class="skill">Microsoft Excel — Expert</div>
+              <div class="skill">Microsoft Word</div>
+              <div class="skill">Microsoft PowerPoint</div>
+              <div class="skill">Microsoft Outlook</div>
+              <div class="skill">Microsoft Access</div>
+              <div class="skill">Microsoft Power BI</div>
+              <div class="skill">Microsoft Teams</div>
+              <div class="skill">Microsoft SharePoint</div>
+              <div class="skill">Microsoft OneDrive</div>
+              <div class="skill">Python</div>
+              <div class="skill">SQL</div>
+              <div class="skill">Google Apps Script</div>
+              <div class="skill">Power Automate</div>
+              <div class="skill">Looker Studio</div>
+            </div>
+          </div>
+          <div class="cap-panel dark reveal">
+            <h3>Core expertise</h3>
+            <div class="expertise-list">
+              <div class="expertise-item"><strong>Master data specialist</strong><span>Managing product, price, ship-to, coverage, subdistributor, and stock reference data at scale.</span></div>
+              <div class="expertise-item"><strong>Data analysis</strong><span>Turning sales, stock, target, and service data into actionable performance views.</span></div>
+              <div class="expertise-item"><strong>Data mining</strong><span>Extracting and combining information from large, inconsistent operational sources.</span></div>
+              <div class="expertise-item"><strong>Data entry &amp; operations</strong><span>Maintaining accurate master and stock data for all subdistributors through controlled workflows.</span></div>
+              <div class="expertise-item"><strong>Automation</strong><span>Removing repetitive work across files, reporting, calculations, and communication.</span></div>
+            </div>
+          </div>
         </div>
-        <small>Replace the email address in <code>index.html</code> with your preferred contact email.</small>
+      </div>
+    </section>
+
+    <section id="scope">
+      <div class="shell">
+        <header class="section-head reveal">
+          <p class="section-kicker">Work scope / 05</p>
+          <h2 class="section-title">Close to the data. Close to the business.</h2>
+        </header>
+        <div class="scope-grid">
+          <article class="scope-card reveal">
+            <h3>Commercial analytics</h3>
+            <ul><li>Sales, selling in, and selling out</li><li>Achievement, growth, and contribution</li><li>Target distribution to all branches</li><li>Discount setup and discount recap</li></ul>
+          </article>
+          <article class="scope-card reveal">
+            <h3>Inventory &amp; service</h3>
+            <ul><li>Stock data maintenance for all subdistributors</li><li>Days of inventory calculations</li><li>Service level agreement monitoring</li><li>Inter-branch relocation calculations</li></ul>
+          </article>
+          <article class="scope-card reveal">
+            <h3>Master data</h3>
+            <ul><li>Subdistributor and coverage masters</li><li>Product and unit masters</li><li>Pricing masters</li><li>Ship-to and branch reference data</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing" id="contact">
+      <div class="shell reveal">
+        <p>Gabby Virginia Xhyalom Michelle</p>
+        <h2>I build data workflows that people can <span>trust.</span></h2>
+        <p class="closing-note">Data analyst, data mining specialist, and automation builder focused on practical systems that make complex operations clearer, faster, and more reliable.</p>
+        <div class="contact-links" aria-label="Contact Gabby Virginia">
+          <a class="contact-link" href="mailto:gabbyvirginia17@gmail.com"><span aria-hidden="true">✉</span> gabbyvirginia17@gmail.com</a>
+          <a class="contact-link" href="tel:+6285765563317"><span aria-hidden="true">☎</span> +62 857-6556-3317</a>
+          <a class="contact-link" href="https://wa.me/6289699796917" target="_blank" rel="noopener"><span aria-hidden="true">◉</span> WhatsApp +62 896-9979-6917</a>
+        </div>
+        <p class="demo-note">All project visuals and displayed records use fictional demo data to protect business confidentiality.</p>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="container footer-inner">
+    <div class="shell footer-inner">
       <span>© <span id="year"></span> Gabby Virginia Xhyalom Michelle</span>
-      <span>Built with HTML, CSS & JavaScript</span>
+      <span>Master Data Specialist · Data Entry · Data Mining · Data Analyst</span>
     </div>
   </footer>
   <script src="script.js"></script>
