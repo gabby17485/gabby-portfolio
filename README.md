@@ -7,6 +7,8 @@ An English-language portfolio for Gabby Virginia Xhyalom Michelle, presenting ex
 ```text
 gabby-portfolio-github/
 ├── index.html
+├── cv.html
+├── Gabby_Virginia_ATS_CV.docx
 ├── styles.css
 ├── script.js
 ├── assets/
@@ -39,4 +41,3 @@ GitHub will provide the public Pages URL after deployment finishes.
 ## Privacy
 
 All project screenshots and operational data shown in this portfolio use fictional demonstration content. Names, branches, products, dates, figures, and charts inside the project visuals are not production data.
-
