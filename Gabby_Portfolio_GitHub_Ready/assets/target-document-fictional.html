@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fictional Target Allocation</title>
+<style>
+  *{box-sizing:border-box} body{margin:0;background:#e9edf3;font-family:Arial,sans-serif;color:#13213b}
+  .page{width:920px;min-height:1280px;margin:28px auto;background:#fff;padding:42px 46px;box-shadow:0 18px 55px #13213b24}
+  header{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:4px solid #0aa6a6;padding-bottom:20px}
+  .brand{display:flex;gap:14px;align-items:center}.logo{width:54px;height:54px;border-radius:14px;background:linear-gradient(135deg,#0aa6a6,#3758dd);display:grid;place-items:center;color:#fff;font-size:28px;font-weight:900}
+  h1{font-size:25px;margin:4px 0 5px}.muted{color:#66738b;font-size:13px}.badge{background:#e9fbf8;color:#07877f;padding:8px 12px;border-radius:999px;font-size:12px;font-weight:700}
+  .meta{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:22px 0}.meta div{background:#f5f7fb;border:1px solid #dfe5ef;padding:13px;border-radius:10px}.meta strong{display:block;font-size:12px;color:#637087;margin-bottom:5px}.meta span{font-weight:700;font-size:14px}
+  table{width:100%;border-collapse:collapse;font-size:12px}th{background:#17396b;color:#fff;padding:11px 8px;text-align:right}th:first-child,th:nth-child(2){text-align:left}td{border-bottom:1px solid #dfe5ef;padding:10px 8px;text-align:right}td:first-child,td:nth-child(2){text-align:left}.group td{background:#eaf3ff;font-weight:800;color:#17396b}.subtotal td{background:#e7fbf3;font-weight:800}.grand td{background:#17396b;color:#fff;font-weight:900;font-size:13px}
+  .foot{margin-top:24px;display:flex;justify-content:space-between;align-items:flex-end}.note{max-width:540px;color:#657189;font-size:12px;line-height:1.6}.approval{border:1px solid #bed0e7;border-radius:12px;padding:14px 18px;text-align:center;color:#31507e}.approval b{display:block;font-family:Georgia,serif;font-style:italic;font-size:22px;color:#0aa6a6;margin-bottom:5px}
+</style>
+</head>
+<body>
+<main class="page">
+  <header><div class="brand"><div class="logo">A</div><div><h1>Aurora Consumer Labs</h1><div class="muted">Fictional commercial planning document</div></div></div><div class="badge">DEMO DATA</div></header>
+  <section class="meta"><div><strong>REPORT</strong><span>Q3 2025 Target Allocation</span></div><div><strong>BRANCH</strong><span>Seaside Hub</span></div><div><strong>DISTRIBUTOR</strong><span>Bluehaven Distribution</span></div></section>
+  <table>
+    <thead><tr><th>Category</th><th>Product</th><th>July</th><th>August</th><th>September</th><th>Quarter</th></tr></thead>
+    <tbody>
+      <tr class="group"><td colspan="6">WELLNESS</td></tr>
+      <tr><td>Wellness</td><td>Nova Vita 30</td><td>28,450</td><td>31,780</td><td>30,240</td><td>90,470</td></tr>
+      <tr><td>Wellness</td><td>Solara C Plus</td><td>17,920</td><td>16,340</td><td>19,860</td><td>54,120</td></tr>
+      <tr><td>Wellness</td><td>Evergreen Zinc</td><td>12,680</td><td>14,110</td><td>13,590</td><td>40,380</td></tr>
+      <tr><td>Wellness</td><td>Orion Daily</td><td>9,740</td><td>11,260</td><td>10,830</td><td>31,830</td></tr>
+      <tr class="subtotal"><td colspan="2">WELLNESS SUBTOTAL</td><td>68,790</td><td>73,490</td><td>74,520</td><td>216,800</td></tr>
+      <tr class="group"><td colspan="6">PERSONAL CARE</td></tr>
+      <tr><td>Personal Care</td><td>Marina Fresh Gel</td><td>23,310</td><td>26,440</td><td>24,780</td><td>74,530</td></tr>
+      <tr><td>Personal Care</td><td>Clearwave Wash</td><td>18,260</td><td>20,750</td><td>22,190</td><td>61,200</td></tr>
+      <tr><td>Personal Care</td><td>Lumen Soft Care</td><td>15,840</td><td>14,690</td><td>16,520</td><td>47,050</td></tr>
+      <tr><td>Personal Care</td><td>Coastal Balm</td><td>7,930</td><td>8,540</td><td>9,120</td><td>25,590</td></tr>
+      <tr class="subtotal"><td colspan="2">PERSONAL CARE SUBTOTAL</td><td>65,340</td><td>70,420</td><td>72,610</td><td>208,370</td></tr>
+      <tr class="group"><td colspan="6">NUTRITION</td></tr>
+      <tr><td>Nutrition</td><td>Harbor Oat Blend</td><td>32,770</td><td>34,120</td><td>36,950</td><td>103,840</td></tr>
+      <tr><td>Nutrition</td><td>Peak Protein Mix</td><td>21,460</td><td>23,980</td><td>22,870</td><td>68,310</td></tr>
+      <tr><td>Nutrition</td><td>Sunrise Fiber</td><td>13,290</td><td>15,440</td><td>14,830</td><td>43,560</td></tr>
+      <tr class="subtotal"><td colspan="2">NUTRITION SUBTOTAL</td><td>67,520</td><td>73,540</td><td>74,650</td><td>215,710</td></tr>
+      <tr class="grand"><td colspan="2">GRAND TOTAL</td><td>201,650</td><td>217,450</td><td>221,780</td><td>640,880</td></tr>
+    </tbody>
+  </table>
+  <div class="foot"><p class="note">All company names, branches, products, dates and values in this document are fictional and are presented only to demonstrate automated Excel-to-PDF generation.</p><div class="approval"><b>Approved</b>Digital workflow • 05 Jul 2025</div></div>
+</main>
+</body>
+</html>
