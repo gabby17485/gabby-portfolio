@@ -38,4 +38,4 @@ GitHub will provide the public Pages URL after deployment finishes.
 
 ## Privacy
 
-All project screenshots, company names, branches, products, dates, figures, and charts shown in this portfolio use fictional demonstration data.
+All project screenshots and operational data shown in this portfolio use fictional demonstration content. Names, branches, products, dates, figures, and charts inside the project visuals are not production data.
