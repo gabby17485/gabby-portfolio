@@ -13,3 +13,4 @@
       }, { threshold: 0.12 });
       document.querySelectorAll('.reveal').forEach((element) => observer.observe(element));
     }
+
